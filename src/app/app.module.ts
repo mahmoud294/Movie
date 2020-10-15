@@ -19,6 +19,7 @@ import { AccountComponent } from './component/account/account.component';
 import { AuthComponent } from './component/auth/auth.component';
 import { LoginComponent } from './component/auth/login/login.component';
 import { RegisterComponent } from './component/auth/register/register.component';
+import {appRoutingModule} from './app-routing-module';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,7 @@ import { RegisterComponent } from './component/auth/register/register.component'
     RegisterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,appRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
